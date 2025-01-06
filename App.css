@@ -1,0 +1,113 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 10%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f0f0f;
+  height: 450px;
+  width: 625px;
+  padding: 5%;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gold;
+}
+.image{
+  height: 350px;
+  width: auto;
+  border-radius: 15px;
+}
+#duration{
+  color: white;
+  height: auto;
+  width: 2.3vw;
+  font-family: 'Roboto';
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 4px;
+  position: relative;
+  margin-top: -7%;
+  margin-bottom: 5%;
+  margin-left: 90%;
+}
+#info{
+  display: flex;
+  margin-top: 2%;
+}
+#logo{
+  margin-right: 4%;
+}
+#imglogo{
+  height: 60px;
+  border-radius: 30px;
+}
+#title{
+  font-size: 26px;
+  color: white;
+  font-family: 'Roboto';
+  font-weight:600;
+}
+#name{
+  font-family: 'Roboto';
+  margin-top: 2%;
+  color: grey;
+  font-size: 18px;
+}
+#ainfo{
+  display: flex;
+  margin-top: 1%;
+  font-size: 18px;
+}
+#viewcount{
+  font-family: 'Roboto';
+  margin-right: 1%;
+  color: grey;
+}
+#age{
+  font-family: 'Roboto';
+  color: grey;
+}
+#sub{
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#promo{
+  color: white;
+  font-size: 30px;
+}
+#button1{
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  animation: colour 6s infinite;
+  color: white;
+}
+#button1:hover{
+  height: 60px;
+  width: 120px;
+  font-size: 17px;
+}
+@keyframes colour{
+  0%{
+    background-color: blue;
+  }
+  40%{
+    background-color: red;
+  }
+  80%{
+    background-color: green;
+  }
+  100%{
+    background-color: blue;
+  }
+}
